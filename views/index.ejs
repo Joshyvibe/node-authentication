@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Node Tutorial</title>
+    </head>
+
+    <body>
+        <nav class="border-b bg-green-600 border-green-300">
+            <div class="max-w-6xl mx-auto py-2 bg-green-600 px-6 xl:px-0 flex items-center justify-between">
+                <div class="menu-left flex items-center space-x-6">
+                    <a href="/" class="py-4 text-lg text-white font-semibold">Node Tutorial</a>
+
+                    <ul class="flex items-center space-x-4">
+                        <li><a href="/login" class="hover:bg-green-600 text-white  px-2 py-2 rounded-xl">Login</a></li>
+                        <li><a href="/register" class="hover:bg-green-600 text-white  px-2 py-2 rounded-xl">Sign Up</a></li>
+                        <form action="/logout?_method=DELETE" method="POST" class="space-y-3">
+                            <div> 
+                                <button type="submit" class="py-4 rounded-xl px-6 ml-2 mb-2 text-white bg-green-800 hover:bg-green-700">Logout Out</button>
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <main class="bg-green-100 mb-12 mt-12">
+            <div>
+                <h1 class="text-4xl bg-green-800 p-4 text-white text-center">
+                    Hello Welcome to Node.JS Authentication Tutorial
+                </h1>
+            </div>
+            <br>
+            <br><br><br><br><br><br><br><br>
+        </main>
+
+        <footer class="bg-green-600">
+            <div class="max-w-6xl mx-auto py-10 px-6 xl:px-0 md:flex justify-between">
+                <div class="footer-left mb-12 md:mb-0">
+                    <h2 class="mb-5 uppercase text-lg text-white">About us</h2>
+
+                    <p class="text-white">Lorem ipsum bla bla bla..</p>
+                </div>
+
+                <div class="footer-right">
+                    <h2 class="mb-5 uppercase text-lg text-white">Social links</h2>
+
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-white hover:text-green-600">Facebook</a></li>
+                        <li><a href="#" class="text-white hover:text-green-600">Twitter</a></li>
+                        <li><a href="#" class="text-white hover:text-green-600">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/hyperscript@2.2.0/dist/hyperscript.js"></script>
+    </body>
+</html>
+
+
+
